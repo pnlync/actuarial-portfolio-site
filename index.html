@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Actuarial project portfolio for insurance analytics, risk modelling, pricing, reserving, and forecasting work."
+    />
+    <title>Tom Zhang | Actuarial Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-elevated="false">
+      <a class="brand" href="#top" aria-label="Tom Zhang home">
+        <span>Tom Zhang</span>
+        <small>Actuarial Portfolio</small>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#profile">Profile</a>
+        <a class="nav-contact" href="mailto:hello@example.com">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-asset"
+          src="./assets/actuarial-surface.png"
+          alt="A layered actuarial risk surface with distribution curves and grid lines"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Insurance analytics / risk modelling / reserving</p>
+          <h1 id="hero-title">Actuarial work, shown through evidence.</h1>
+          <p class="hero-text">
+            A focused portfolio for pricing, claims analysis, reserving, and forecasting projects that can stand behind a CV.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button secondary" href="#profile">About me</a>
+          </div>
+        </div>
+        <dl class="hero-metrics reveal" aria-label="Portfolio focus">
+          <div>
+            <dt>Focus</dt>
+            <dd>Non-life insurance</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd>Python, R, SQL, Excel</dd>
+          </div>
+          <div>
+            <dt>Methods</dt>
+            <dd>GLM, triangles, simulation</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section intro reveal" aria-labelledby="intro-title">
+        <div>
+          <p class="section-kicker">Portfolio thesis</p>
+          <h2 id="intro-title">Each project should answer a business question, not just display a model.</h2>
+        </div>
+        <p>
+          The site is structured around actuarial decision-making: what was uncertain, how the data was prepared,
+          which model was appropriate, and how the result would change a pricing, reserving, or risk decision.
+        </p>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Selected work</p>
+          <h2 id="projects-title">Project index</h2>
+        </div>
+
+        <article class="project-row reveal">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <p class="project-type">Pricing model</p>
+            <h3>Motor claims frequency with GLM diagnostics</h3>
+            <p>
+              Build a transparent rating model, test exposure treatment, compare Poisson and negative binomial
+              assumptions, and explain rating-factor movement.
+            </p>
+            <ul class="tag-list" aria-label="Project methods">
+              <li>Python</li>
+              <li>GLM</li>
+              <li>Frequency</li>
+              <li>Model validation</li>
+            </ul>
+          </div>
+          <span class="project-status">Draft slot</span>
+        </article>
+
+        <article class="project-row reveal">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <p class="project-type">Reserving</p>
+            <h3>Claims triangle reserve estimate and uncertainty range</h3>
+            <p>
+              Estimate ultimate losses with chain ladder, inspect development stability, and present reserve risk as
+              a decision range rather than one point estimate.
+            </p>
+            <ul class="tag-list" aria-label="Project methods">
+              <li>R</li>
+              <li>Chain ladder</li>
+              <li>Bootstrap</li>
+              <li>IBNR</li>
+            </ul>
+          </div>
+          <span class="project-status">Draft slot</span>
+        </article>
+
+        <article class="project-row reveal">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <p class="project-type">Forecasting</p>
+            <h3>Policy lapse and renewal behavior analysis</h3>
+            <p>
+              Segment retention patterns, identify lapse drivers, and translate predictions into underwriting and
+              customer-value actions.
+            </p>
+            <ul class="tag-list" aria-label="Project methods">
+              <li>SQL</li>
+              <li>Survival analysis</li>
+              <li>Forecasting</li>
+              <li>Segmentation</li>
+            </ul>
+          </div>
+          <span class="project-status">Draft slot</span>
+        </article>
+      </section>
+
+      <section class="section capabilities reveal" id="capabilities" aria-labelledby="capabilities-title">
+        <div>
+          <p class="section-kicker">Capabilities</p>
+          <h2 id="capabilities-title">What the portfolio is built to prove</h2>
+        </div>
+        <div class="capability-grid">
+          <div>
+            <span>01</span>
+            <h3>Actuarial judgement</h3>
+            <p>Translate insurance questions into suitable assumptions, diagnostics, and decision-ready outputs.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Technical modelling</h3>
+            <p>Use statistical models, reproducible code, and sensitivity testing rather than isolated notebooks.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Clear communication</h3>
+            <p>Explain model limitations, uncertainty, and commercial relevance in language a hiring team can scan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile" id="profile" aria-labelledby="profile-title">
+        <div class="profile-copy reveal">
+          <p class="section-kicker">Profile</p>
+          <h2 id="profile-title">Actuarial candidate with a bias toward practical evidence.</h2>
+          <p>
+            This section can hold your education, actuarial exams, insurance interests, and a short CV-style summary.
+            Keep it factual and connect every claim to a project wherever possible.
+          </p>
+        </div>
+        <div class="profile-panel reveal">
+          <dl>
+            <div>
+              <dt>Exam progress</dt>
+              <dd>Add completed exams here</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Dublin / open to actuarial roles</dd>
+            </div>
+            <div>
+              <dt>Links</dt>
+              <dd>GitHub, LinkedIn, CV PDF</dd>
+            </div>
+          </dl>
+          <a class="button primary" href="mailto:hello@example.com">Email me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built for actuarial project notes, CV links, and case studies.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
