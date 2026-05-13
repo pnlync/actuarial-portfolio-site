@@ -300,6 +300,30 @@ h3 {
   color: #e4af4d;
 }
 
+.section-note .section-kicker {
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+}
+
+.section-note p:not(.section-kicker) {
+  color: rgba(255, 250, 241, 0.62);
+  font-size: 0.9rem;
+  margin: 0 0 12px;
+  max-width: 520px;
+}
+
+.section-note p span {
+  display: block;
+}
+
+.section-note p a {
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: #62b8ad;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 .project-row {
   align-items: start;
   border-bottom: 1px solid rgba(255, 250, 241, 0.18);
@@ -436,6 +460,11 @@ h3 {
     align-items: flex-start;
     gap: 16px;
     position: absolute;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    gap: 22px;
   }
 
   .nav-links {
