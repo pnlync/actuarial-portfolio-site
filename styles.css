@@ -188,6 +188,10 @@ h2 {
   margin-bottom: 0;
 }
 
+#profile-title {
+  font-size: clamp(2rem, 3.8vw, 4rem);
+}
+
 h3 {
   font-size: 1.35rem;
   line-height: 1.25;
