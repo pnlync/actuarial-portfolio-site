@@ -269,6 +269,12 @@ h3 {
   margin: 4px 0 0;
 }
 
+.profile-panel dd {
+  color: #20302c;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 .section {
   padding: 112px clamp(20px, 5vw, 72px);
 }
