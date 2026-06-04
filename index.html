@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css?v=20260516-profile-title-tune" />
@@ -27,7 +27,6 @@
         <a href="#projects">Projects</a>
         <a href="#capabilities">Capabilities</a>
         <a href="#profile">Profile</a>
-        <a class="nav-contact" href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -170,33 +169,35 @@
         </div>
       </section>
 
-      <section class="section profile" id="profile" aria-labelledby="profile-title">
-        <div class="profile-copy reveal">
+      <section class="section profile-section" id="profile" aria-labelledby="profile-title">
+        <div class="profile-block reveal">
           <p class="section-kicker">Profile</p>
           <h2 id="profile-title">Actuarial candidate connecting technical analysis to business outcomes.</h2>
           <p>
-            This section can hold your education, actuarial exams, insurance interests, and a short CV-style summary.
-            Keep it factual and connect every claim to a project wherever possible.
+            I build actuarial project work around the decisions it should support: pricing assumptions, reserve
+            uncertainty, model diagnostics, and clear communication for insurance teams.
           </p>
         </div>
-        <div class="profile-panel reveal">
-          <dl>
-            <div>
-              <dt>IFoA Exam progress</dt>
-              <dd>Sat CS1, CS2, CB2, CB3<br />Professionalism Course Stage 1 &amp; 2</dd>
-            </div>
-            <div>
-              <dt>Location</dt>
-              <dd>Dublin / open to actuarial roles</dd>
-            </div>
-            <div id="contact" class="contact-group">
-              <dt>Links</dt>
-              <dd>GitHub, LinkedIn, CV PDF</dd>
-              <dt>Contact</dt>
-              <dd>pnlync@gmail.com</dd>
-            </div>
-          </dl>
+      </section>
+
+      <section class="contact-section reveal" id="contact" aria-labelledby="contact-title">
+        <div class="contact-heading">
+          <h2 id="contact-title">Open to actuarial roles</h2>
         </div>
+        <dl class="contact-list" aria-label="Contact details">
+          <div>
+            <dt>Location</dt>
+            <dd>Dublin</dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:pnlync@gmail.com">pnlync@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>Links</dt>
+            <dd>GitHub / LinkedIn / CV PDF</dd>
+          </div>
+        </dl>
       </section>
     </main>
 
