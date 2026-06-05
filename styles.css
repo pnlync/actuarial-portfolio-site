@@ -315,6 +315,7 @@ h3 {
 .profile-block > p {
   color: #3f4b48;
   font-size: 1.05rem;
+  margin-bottom: 0;
   margin-top: 16px;
 }
 
@@ -533,7 +534,7 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding-top: 148px;
+    padding-top: 108px;
   }
 
   h1 {
@@ -595,6 +596,14 @@ h3 {
 
   .section {
     padding-block: 78px;
+  }
+
+  .profile-section {
+    padding-block: 56px 14px;
+  }
+
+  .contact-section {
+    padding-block: 18px 34px;
   }
 
   .contact-list {
