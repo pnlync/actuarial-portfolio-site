@@ -40,7 +40,7 @@ a {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr);
   left: 0;
-  padding: 22px clamp(20px, 5vw, 72px);
+  padding: 16px clamp(20px, 5vw, 72px);
   position: fixed;
   right: 0;
   top: 0;
@@ -51,7 +51,7 @@ a {
 .site-header[data-elevated="true"] {
   background: rgba(246, 241, 232, 0.9);
   border-bottom: 1px solid var(--line);
-  padding-block: 14px;
+  padding-block: 12px;
   backdrop-filter: blur(18px);
 }
 
@@ -63,7 +63,7 @@ a {
 
 .brand span {
   font-family: var(--heading);
-  font-size: 1.72rem;
+  font-size: 1.54rem;
   font-weight: 400;
   line-height: 0.95;
 }
@@ -84,7 +84,7 @@ a {
   gap: clamp(16px, 2vw, 30px);
   grid-column: 2;
   justify-self: center;
-  font-size: 0.96rem;
+  font-size: 1.04rem;
   font-weight: 700;
 }
 
@@ -513,8 +513,9 @@ h3 {
   .site-header {
     align-items: flex-start;
     display: grid;
-    gap: 18px;
+    gap: 12px;
     grid-template-columns: 1fr;
+    padding-block: 12px;
     position: absolute;
   }
 
@@ -532,7 +533,7 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding-top: 178px;
+    padding-top: 148px;
   }
 
   h1 {
@@ -571,12 +572,13 @@ h3 {
 
 @media (max-width: 560px) {
   .site-header {
-    gap: 18px;
+    gap: 10px;
+    padding-block: 10px;
   }
 
   .nav-links {
-    gap: 16px;
-    font-size: 0.84rem;
+    gap: 14px;
+    font-size: 0.88rem;
   }
 
   h1 {
