@@ -2,6 +2,8 @@
 
 Static first version of a personal actuarial portfolio homepage.
 
+Live site: https://pnlync.github.io/actuarial-portfolio-site/
+
 ## Files
 
 - `index.html` - page content and section structure
