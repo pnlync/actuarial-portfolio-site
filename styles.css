@@ -186,11 +186,6 @@ h2 {
   margin-bottom: 0;
 }
 
-#profile-title {
-  font-size: clamp(1.95rem, 3.55vw, 3.75rem);
-  max-width: 1120px;
-}
-
 h3 {
   font-size: 1.35rem;
   line-height: 1.25;
@@ -295,7 +290,7 @@ h3 {
 }
 
 .profile-section {
-  padding-block: 56px 44px;
+  padding-block: 112px 44px;
 }
 
 #profile,
@@ -312,7 +307,7 @@ h3 {
 }
 
 .intro p:last-child,
-.profile-block > p {
+.profile-block > p:not(.section-kicker) {
   color: #3f4b48;
   font-size: 1.05rem;
   margin-bottom: 0;
@@ -599,11 +594,11 @@ h3 {
   }
 
   .profile-section {
-    padding-block: 56px 14px;
+    padding-block: 56px 22px;
   }
 
   .contact-section {
-    padding-block: 18px 34px;
+    padding-block: 22px 34px;
   }
 
   .contact-list {
