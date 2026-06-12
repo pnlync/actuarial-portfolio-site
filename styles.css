@@ -8,8 +8,8 @@
   --rust: #a14b31;
   --saffron: #c48922;
   --white: #fffaf1;
-  --heading: "Quicksand", system-ui, sans-serif;
-  --body: "Quicksand", system-ui, sans-serif;
+  --heading: "Instrument Serif", Georgia, serif;
+  --body: "Plus Jakarta Sans", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;
   color-scheme: light;
 }
@@ -186,6 +186,10 @@ h2 {
   margin-bottom: 0;
 }
 
+#profile-title {
+  max-width: 980px;
+}
+
 h3 {
   font-size: 1.35rem;
   line-height: 1.25;
@@ -257,8 +261,7 @@ h3 {
   font-weight: 700;
 }
 
-.hero-metrics dd,
-.contact-list dd {
+.hero-metrics dd {
   font-weight: 800;
   margin: 4px 0 0;
 }
@@ -270,8 +273,10 @@ h3 {
 
 .contact-list dd {
   color: #20302c;
+  font-family: "Quicksand", var(--body);
   font-weight: 400;
   line-height: 1.42;
+  margin: 4px 0 0;
 }
 
 .section {
@@ -299,6 +304,7 @@ h3 {
 }
 
 #contact-title {
+  font-family: "Quicksand", var(--body);
   font-size: clamp(1.25rem, 1.75vw, 1.65rem);
   font-weight: 600;
   line-height: 1.1;
@@ -472,8 +478,17 @@ h3 {
 }
 
 .contact-list a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.contact-list a:hover {
   color: var(--teal);
-  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
 }
 
 .footer {
